@@ -6,7 +6,7 @@
 
         <variable
             name="viewmodel"
-            type="com.avocadochif.nerdzmagicbottomnavigation.viewmodel.home.HomeViewModel" />
+            type="com.avocadochif.nerdzmagicbottomnavigation.viewmodel.home.MainViewModel" />
 
     </data>
 

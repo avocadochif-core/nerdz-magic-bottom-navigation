@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import com.avocadochif.nerdzmagicbottomnavigation.enums.BottomNavigationPage.*
 import com.avocadochif.nerdzmagicbottomnavigation.extensions.execute
 
-class HomeViewModel : ViewModel() {
+class MainViewModel : ViewModel() {
 
     /////////////////////////////////////////////////////////
     ///////////////// Live Data with getters ////////////////

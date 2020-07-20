@@ -15,18 +15,18 @@ import com.avocadochif.nerdzmagicbottomnavigation.extensions.replaceFragment
 import com.avocadochif.nerdzmagicbottomnavigation.view.fragment.events.EventsFragment
 import com.avocadochif.nerdzmagicbottomnavigation.view.fragment.home.HomeFragment
 import com.avocadochif.nerdzmagicbottomnavigation.view.fragment.library.LibraryFragment
-import com.avocadochif.nerdzmagicbottomnavigation.viewmodel.home.HomeViewModel
+import com.avocadochif.nerdzmagicbottomnavigation.viewmodel.home.MainViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var viewModel: HomeViewModel
+    private lateinit var viewModel: MainViewModel
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-        viewModel = ViewModelProviders.of(this).get(HomeViewModel::class.java)
+        viewModel = ViewModelProviders.of(this).get(MainViewModel::class.java)
         binding.bindData(BR.viewmodel, viewModel)
 
         initViews()
