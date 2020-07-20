@@ -1,0 +1,3 @@
+include ':BottomNavigationViewExtension'
+include ':app'
+rootProject.name = "NerdzMagicBottomNavigation"
